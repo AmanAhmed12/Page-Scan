@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets — never bake these into the image
+.env
+
+# Prompt logs (runtime-generated, potentially large)
+prompt_logs/
+
+# Version control
+.git/
+.gitignore
+
+# Editor / OS artefacts
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Docs
+README*.md

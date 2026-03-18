@@ -10,6 +10,20 @@
 
 ## Quick Start
 
+### Option 1: Using Docker
+
+```bash
+# 1. Build the image
+docker build -t page-scan .
+
+# 2. Run the container
+docker run -p 8501:8501 -e OPENAI_API_KEY=<your-open-api-key> page-scan
+```
+
+Open **http://localhost:8501** in your browser.
+
+### Option 2: Local Setup
+
 ```bash
 # 1. Clone & enter
 git clone https://github.com/AmanAhmed12/Page-Scan.git
