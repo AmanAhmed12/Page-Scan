@@ -4,6 +4,9 @@
 > Extracts factual metrics from any public page, then uses structured AI analysis to surface SEO, messaging, CTA, content, and UX insights — with prioritised recommendations.
 
 ---
+## Requirements
+
+- Python 3.10+ (recommended)
 
 ## Quick Start
 
