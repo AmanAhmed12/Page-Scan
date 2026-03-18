@@ -6,7 +6,7 @@
 ---
 ## Requirements
 
-- Python 3.10+ (recommended)
+- Python 3.12 (recommended)
 
 ## Quick Start
 
