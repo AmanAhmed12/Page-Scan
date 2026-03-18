@@ -10,17 +10,22 @@
 ```bash
 # 1. Clone & enter
 git clone https://github.com/AmanAhmed12/Page-Scan.git
-cd website-audit-tool
+cd Page-Scan
 
 # 2. Create virtual environment
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+# Mac/Linux
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
 # 4. Set your OpenAI API key
-# Edit .env and paste your key
+# Edit .env 
+#OPENAI_API_KEY=your_api_key_here
 
 # 5. Run Streamlit App
 streamlit run app.py
